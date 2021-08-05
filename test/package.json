@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node-dev node_modules/protractor/bin/protractor protractor.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.8.2",
+    "@types/node": "^14.17.9",
+    "@types/protractor": "^4.0.0",
+    "jasmine": "^3.8.0",
+    "protractor": "^7.0.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {},
+  "description": ""
+}

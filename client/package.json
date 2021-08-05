@@ -1,0 +1,48 @@
+{
+  "name": "hub",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "start npm run json-server & ng serve",
+    "build": "ng build",
+    "test": "ng test --watch=false --browsers=ChromeHeadlessNoSandbox",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "json-server": "cd ../server & json-server --watch mocks/db.json --host 0.0.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^11.2.14",
+    "@angular/common": "^11.2.14",
+    "@angular/compiler": "^11.2.14",
+    "@angular/core": "^11.2.14",
+    "@angular/forms": "^11.2.14",
+    "@angular/platform-browser": "^11.2.14",
+    "@angular/platform-browser-dynamic": "^11.2.14",
+    "@angular/router": "^11.2.14",
+    "@ngrx/effects": "^10.1.2",
+    "@ngrx/store": "^10.1.2",
+    "@ngrx/store-devtools": "^10.1.2",
+    "rxjs": "^6.6.7",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.1100.7",
+    "@angular/cli": "^11.2.14",
+    "@angular/compiler-cli": "^11.2.14",
+    "@types/jasmine": "^3.8.2",
+    "@types/node": "^12.20.19",
+    "codelyzer": "^6.0.2",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.7.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0"
+  }
+}
